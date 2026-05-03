@@ -1,0 +1,11 @@
+# Build artifacts
+grub-dist/
+*.iso
+*.sparseimage
+
+# Linux kernel build
+linux/
+grub/
+
+# Logs
+*.log
