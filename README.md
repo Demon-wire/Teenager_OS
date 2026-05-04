@@ -43,26 +43,26 @@ The centerpiece of the OS — a completely new approach to file management.
 ### Phase 1 — Foundations *(current)*
 - [x] Compile GRUB from source
 - [x] Create bootable disk image (boots into CLI via QEMU)
-- [ ] Complete CS50 & obtain certificate
-- [ ] Work through Nand2Tetris
-- [ ] Assembly basics (x86, NASM)
+- [ ] Custom GRUB theme (dark mode, modern design)
+- [ ] Boot into a minimal Linux CLI environment
 
-### Phase 2 — First App
-- [ ] Build file manager as a standalone Linux app
-- [ ] Python + GTK as base
-- [ ] Implement AI search (locally, SQLite + Embeddings)
-- [ ] Publish on GitHub
+### Phase 2 — AI File Manager
+- [ ] Build file manager as a standalone Linux app (Python + GTK)
+- [ ] Implement smart search (SQLite + local embeddings)
+- [ ] AI auto-organization (file content recognition)
+- [ ] Predictive file access based on user habits
 
 ### Phase 3 — Desktop Environment
-- [ ] Develop Wayland compositor (wlroots as base)
-- [ ] Custom GUI components (taskbar, app launcher)
-- [ ] Dark/light mode + animation system
+- [ ] Wayland compositor (wlroots as base)
+- [ ] Taskbar and app launcher
+- [ ] Dark / light mode
+- [ ] Animation system
 
 ### Phase 4 — Custom Distro
-- [ ] Use Debian as base
-- [ ] Integrate custom components
-- [ ] Style GRUB individually
-- [ ] Create ISO image
+- [ ] Debian as base system
+- [ ] Integrate all custom components
+- [ ] Custom GRUB styling
+- [ ] Bootable ISO image
 
 ## Current Status
 
