@@ -7,5 +7,17 @@ grub-dist/
 linux/
 grub/
 
+# Limine git clone (zu groß / nicht nötig)
+/limine/
+
+# Alpine Linux Kernel & Initramfs
+iso_root/boot/vmlinuz
+iso_root/boot/initramfs
+iso_root/boot/modloop
+
+# Alte ISO-Verzeichnisse
+iso/
+boot.iso
+
 # Logs
 *.log

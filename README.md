@@ -17,7 +17,7 @@ Existing Linux distributions are primarily aimed at experienced users and develo
 | Component | Decision |
 |---|---|
 | Kernel | Linux Kernel |
-| Bootloader | GRUB (custom styled) |
+| Bootloader | Limine (custom styled) |
 | Display System | Wayland |
 | Package Manager | APT (Debian-based) |
 | GUI Language | C/C++ + Python (tools & AI) |
@@ -41,9 +41,9 @@ The centerpiece of the OS — a completely new approach to file management.
 ## Roadmap
 
 ### Phase 1 — Foundations *(current)*
-- [x] Compile GRUB from source
-- [x] Create bootable disk image (boots into CLI via QEMU)
-- [ ] Custom GRUB theme (dark mode, modern design)
+- [x] Set up Limine bootloader (pre-built binaries, v8.x)
+- [x] Create bootable ISO (boots Alpine Linux CLI via QEMU with Limine)
+- [x] Custom Limine theme (dark mode, Catppuccin colors, wallpaper)
 - [ ] Boot into a minimal Linux CLI environment
 
 ### Phase 2 — AI File Manager
@@ -66,7 +66,7 @@ The centerpiece of the OS — a completely new approach to file management.
 
 ## Current Status
 
-GRUB compiled from source, bootable ISO created, boots into Alpine Linux CLI via QEMU on macOS M4.
+Limine bootloader configured, bootable ISO created (`teenager-os.iso`), boots into Alpine Linux CLI via QEMU on macOS M4.
 
 ## Resources
 
