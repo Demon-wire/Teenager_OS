@@ -1,2 +1,7 @@
 # Logs
 *.log
+
+# Zu große Dateien für GitHub (>100MB)
+*.sparseimage
+*.iso
+linux/
